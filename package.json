@@ -1,0 +1,17 @@
+{
+  "name": "watch-arbitrage",
+  "version": "0.1.0",
+  "description": "Agent de détection de bonnes affaires sur montres (Vinted) - alertes Telegram",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "init-db": "node db/init.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "node-cron": "^3.0.3",
+    "node-telegram-bot-api": "^0.66.0",
+    "pg": "^8.12.0"
+  }
+}
